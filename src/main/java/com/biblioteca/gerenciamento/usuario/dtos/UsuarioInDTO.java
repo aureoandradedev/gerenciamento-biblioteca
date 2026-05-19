@@ -11,5 +11,4 @@ public class UsuarioInDTO {
     private String nome;
     private String senha;
     private String email;
-    private String role;
 }

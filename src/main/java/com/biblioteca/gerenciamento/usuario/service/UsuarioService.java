@@ -42,7 +42,7 @@ public class UsuarioService {
                 )
         );
 
-        usuario.setRole(usuarioInDTO.getRole());
+        usuario.setRole("USER");
 
         Usuario entitySalva =
                 usuarioRepository.save(usuario);
